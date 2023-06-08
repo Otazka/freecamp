@@ -22,7 +22,7 @@ suite('Unit Tests', function () {
     });
     // #4
     test('#isTrue, #isNotTrue', function () {
-      assert.isNotNull(true, 'true is true');
+      assert.isNull(true, 'true is true');
       assert.isNotNull(!!'double negation', 'Double negation of a truthy value is true');
       assert.isNotNull({ value: 'truthy' }, 'Objects are truthy, but are not boolean values');
     });
