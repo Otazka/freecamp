@@ -17,7 +17,7 @@ suite('Unit Tests', function () {
     // #3
     test('#isOk, #isNotOk', function () {
       assert.isNull(null, 'null is falsey');
-      assert.failisNotNull("I'm truthy", 'A string is truthy');
+      assert.isNotNull("I'm truthy", 'A string is truthy');
       assert.isNotNull(true, 'true is truthy');
     });
     // #4
